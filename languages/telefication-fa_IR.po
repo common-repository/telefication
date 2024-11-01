@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Telefication\n"
+"POT-Creation-Date: 2018-03-09 22:54+0330\n"
+"PO-Revision-Date: 2018-03-10 00:02+0330\n"
+"Last-Translator: \n"
+"Language-Team: Telefication\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: .vscode\n"
+
+#: admin/class-telefication-admin.php:98
+msgid "An error occurred"
+msgstr "خطایی رخ داده است"
+
+#: admin/class-telefication-admin.php:99
+msgid "This is a test message from Telefication"
+msgstr "این یک پیام آزمایشی از طرف تلفیکیشن است"
+
+#: admin/class-telefication-admin.php:117
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: admin/class-telefication-admin.php:131
+msgid "Telefication Settings"
+msgstr "تنظیمات تلفیکیشن"
+
+#: admin/class-telefication-admin.php:132
+msgid "Telefication"
+msgstr "تلفیکیشن"
+
+#: admin/class-telefication-admin.php:166
+#: admin/partials/telefication-admin-display.php:31
+msgid "General Setting"
+msgstr "تنظیمات عمومی"
+
+#: admin/class-telefication-admin.php:173
+msgid "Telefication Bot ID"
+msgstr "آی دی ربات تلفیکیشن"
+
+#: admin/class-telefication-admin.php:181
+msgid "Email(s):"
+msgstr "ایمیل‌ها:"
+
+#: admin/class-telefication-admin.php:189
+msgid "Display Recipient Email"
+msgstr "نمایش ایمیل گیرنده"
+
+#: admin/class-telefication-admin.php:197
+msgid "Send Email Body"
+msgstr "ارسال متن اصلی ایمیل"
+
+#: admin/class-telefication-admin.php:205
+msgid "Only Woocommerce Orders"
+msgstr "فقط برای سفارشات ووکامرس"
+
+#: admin/class-telefication-admin.php:216
+msgid "My Own Bot Setting"
+msgstr "تنظیمات ربات خودم"
+
+#: admin/class-telefication-admin.php:223
+msgid "Your Bot Token"
+msgstr "توکن ربات شما"
+
+#: admin/class-telefication-admin.php:274
+#, php-format
+msgid "Join to %s at Telegram to receive notifications."
+msgstr ""
+"برای دریافت پیامها باید در ربات تلگرام %s عضو شوید و یک آی دی دریافت کنید."
+
+#: admin/class-telefication-admin.php:288
+msgid "Send test message"
+msgstr "ارسال پیام آزمایشی"
+
+#: admin/class-telefication-admin.php:289
+msgid "Please enter your Telefication bot id."
+msgstr "لطفا آی دی دریافتی از ربات تلفیکیشن را وارد کنید."
+
+#: admin/class-telefication-admin.php:308
+msgid "⚠ Woocommerce is not active!"
+msgstr "⚠ ووکامرس فعال نیست!"
+
+#: admin/class-telefication-admin.php:313
+msgid ""
+"If enabled, you will receive only woocommerce new orders notification. (on "
+"woocommerce thank you page)"
+msgstr ""
+"اگر فعال شود، فقط سفارشات جدید مربوط به ووکامرس ارسال خواهد شد. (در صفحه "
+"تشکر ووکامرس ارسال میشود)"
+
+#: admin/class-telefication-admin.php:334
+msgid "If enabled, you will receive email body too."
+msgstr "اگر فعال شود، شما متن اصلی ایمیل را هم دریافت میکنید."
+
+#: admin/class-telefication-admin.php:353
+msgid "If enabled, the recipient email will be added to notifications."
+msgstr "اگر فعال شود، آدرس ایمیل گیرنده ایمیل در اطلاع رسانی نمایش داده میشود."
+
+#: admin/class-telefication-admin.php:368
+msgid ""
+"Notify me only of the emails that are sent to this list. (Comma separated.) "
+"<br> Leave it empty if you want to get all notifications."
+msgstr ""
+"فقط بابت ایمیلهایی که به این لیست ارسال میشود مرا مطلع کنید. (با کاما \",\" "
+"جدا شود) <br> اگر میخواهید همه اعلانها را دریافت کنید خالی بگذارید."
+
+#: admin/class-telefication-admin.php:384
+msgid ""
+"If you insert your own bot token, Telefication will send notifications to "
+"your bot directly!"
+msgstr ""
+"اگر توکن ربات تلگرام خودتان را وارد کنید، تلفیکیشن تمام نتیفیکیشن ها را "
+"مستقیما به ربات شما ارسال میکند."
+
+#: admin/class-telefication-admin.php:396
+msgid "Please enter your bot token ."
+msgstr "لطفا توکن ربات خودتان را وارد کنید."
+
+#: admin/partials/telefication-admin-display.php:28
+msgid "Telefication Setting"
+msgstr "تنظیمات تلفیکیشن"
+
+#: admin/partials/telefication-admin-display.php:32
+msgid "My Own Bot"
+msgstr "ربات خودم"
+
+#: admin/partials/telefication-admin-display.php:47
+msgid "How To Use My Own Bot"
+msgstr "چطور از ربات خودم استفاده کنم"
+
+#: admin/partials/telefication-admin-display.php:51
+#, php-format
+msgid ""
+"1. Go to %s and start it, send <code>/newbot</code> and follow instructions "
+"to create your own bot. at the end, you will receive your bot token. See %s "
+"for more information."
+msgstr ""
+"1. به %s بروید و دستور <code>/newbot</code> را ارسال کنید و توضیحات داده شده "
+"را دنبال کنید تا ربات خودتان را بسازید. در آخر بعد از ساخت ربات یک توکن برای "
+"شما داده خواهد شد. برای اطلاعات بیشتر %s را ببینید."
+
+#: admin/partials/telefication-admin-display.php:53
+msgid "here"
+msgstr "اینجا"
+
+#: admin/partials/telefication-admin-display.php:58
+msgid "2. Insert your bot token at input above and save changes. "
+msgstr "2. توکن ربات تلگرام خود را در فیلد بالا وارد کرده و ذخیره کنید. "
+
+#: admin/partials/telefication-admin-display.php:60
+msgid ""
+"3. Go to the general options tab and test your bot by sending a test message "
+msgstr ""
+"3. به تب تنظیمات کلی بروید و ربات خودتان را با ارسال پیام آزمایشی تست کنید. "
+
+#: admin/partials/telefication-admin-display.php:64
+msgid "* Don't forget to start your own bot"
+msgstr "* فراموش نکنید که ربات خودتان را استارت کنید."
+
+#: admin/partials/telefication-admin-display.php:66
+#, php-format
+msgid ""
+"** Currently, you should get your ID from %s and save it in general options "
+"tab like before, but notifications send to your but directly."
+msgstr ""
+"** در حال حاضر شما باید همانند قبل، آی دی تلفیکیشن را از %s دریافت و ذخیره "
+"کنید. اما به یاد داشته باشید که تمام پیامها مستقیما به تلگرام ارسال میشود."
+
+#: admin/partials/telefication-admin-display.php:79
+#, php-format
+msgid ""
+"If you like Telefication please leave us a %s rating. A huge thank you from "
+"us in advance!"
+msgstr ""
+"اگر تلفیکیشن را دوست داشتید لطفا امتیاز %s بدهید. ما نهایت تشکر را از شما "
+"داریم!"
+
+#: admin/partials/telefication-admin-display.php:85
+msgid "We will be happy if you let us know your suggestions."
+msgstr "ما خیلی خوشحال میشویم اگر پیشنهاداتتان را با ما در میان بگذارید."
+
+#: includes/class-telefication-service.php:146
+msgid "Test message sent successfully (To Your Bot)"
+msgstr "پیام آزمایشی با موفقیت ارسال شد. (با ربات خودتان)"
+
+#: includes/class-telefication-service.php:159
+msgid "Test message sent successfully (To Telefication Bot)"
+msgstr "پیام آزمایشی با موفقیت ارسال شد. (با ربات تلفیکیشن)"
+
+#: includes/class-telefication.php:231
+msgid "Name: "
+msgstr "نام: "
+
+#: includes/class-telefication.php:232
+msgid "City: "
+msgstr "شهر: "
+
+#: includes/class-telefication.php:233
+msgid "Phone: "
+msgstr "تلفن: "
+
+#: includes/class-telefication.php:234
+msgid "Total: "
+msgstr "کل: "
+
+#: includes/class-telefication.php:252
+msgid "New order: "
+msgstr "سفارش جدید: "
+
+#: includes/class-telefication.php:255
+msgid "Billing data: "
+msgstr "اطلاعات پرداخت: "
+
+#: includes/class-telefication.php:297
+msgid "This Is Test"
+msgstr "این یک تست است."
+
+#: includes/class-telefication.php:300
+msgid "Please enter ID"
+msgstr "لطفا آی دی را وارد کنید."
+
+#~ msgid "Order data: "
+#~ msgstr "اطلاعات سفارش: "

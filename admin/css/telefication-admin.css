@@ -1,0 +1,136 @@
+/**
+ * All of the CSS for telefication admin-specific functionality.
+ */
+
+#telefication .nav-tab-wrapper {
+    border-bottom : 1px solid #e3e3e3 !important;
+}
+
+#telefication .nav-tab {
+    border        : 1px solid #e3e3e3;
+    border-bottom : none;
+    border-radius : 3px 3px 0 0;
+}
+
+#telefication .nav-tab:focus, #telefication .nav-tab:active {
+    outline            : 0 !important;
+    box-shadow         : none;
+    -moz-outline-style : none;
+}
+
+#telefication .nav-tab-active {
+    background-color : #ffffff;
+    border-bottom    : 1px solid #ffffff;
+}
+
+#telefication .nav-tab-active:hover {
+    background-color : #ffffff;
+    border-bottom    : 1px solid #ffffff;
+}
+
+#telefication .telefication-wrapper {
+    background-color : #ffffff !important;
+    border           : 1px solid #e3e3e3;
+    border-top       : none;
+    border-radius    : 0 0 3px 3px;
+    padding          : 20px;
+}
+
+#telefication .telefication-wrapper .form-table td {
+    font-size : 14px !important;
+}
+
+#telefication .hide {
+    display : none;
+}
+
+#telefication .disable {
+    opacity         : .5;
+    color           : currentColor;
+    display         : inline-block; /* For IE11/ MS Edge bug */
+    pointer-events  : none;
+    text-decoration : none;
+    cursor          : not-allowed;
+}
+
+#telefication .half {
+    width : 50%;
+}
+
+#telefication .one-third {
+    width   : 32%;
+    display : inline-block;
+}
+
+#telefication .telefication-wrapper #chat_id {
+    direction : ltr;
+}
+
+#telefication .telefication-wrapper #match_emails,
+.telefication-wrapper #bot_token,
+.telefication-wrapper #bot_bypass {
+    direction : ltr;
+    width     : 50%;
+}
+
+#telefication .telefication-footer-note .dashicons {
+    font-size   : 16px;
+    padding-top : 3px;
+}
+
+#telefication .setting-fields-group {
+    border-left : 2px solid #1e8cbe;
+    padding     : 15px 10px 10px;
+    margin      : 0 0 10px 7px;
+}
+
+.rtl #telefication .setting-fields-group {
+    border-left  : none;
+    border-right : 2px solid #1e8cbe;
+    margin       : 0 7px 10px 0;
+}
+
+#telefication .animated {
+    -webkit-animation-duration  : 1s;
+    animation-duration          : 1s;
+    -webkit-animation-fill-mode : both;
+    animation-fill-mode         : both;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity : 0;
+    }
+
+    to {
+        opacity : 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity : 0;
+    }
+
+    to {
+        opacity : 1;
+    }
+}
+
+#telefication .fadeIn {
+    -webkit-animation-name : fadeIn;
+    animation-name         : fadeIn;
+}
+
+#channel_notification_template,
+#channel_woocommerce_template {
+    width  : 100%;
+    height : 100px;
+}
+
+.telefication-half {
+    width   : 45%;
+    padding : 5px;
+    display : inline-block;
+}
+

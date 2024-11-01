@@ -1,0 +1,302 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Telefication\n"
+"POT-Creation-Date: "
+"2018-03-09 22:54+0330\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: "
+"Telefication\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"2.0.4\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: admin/class-telefication-admin.php:98
+msgid "An error occurred"
+msgstr ""
+
+#: admin/class-telefication-admin.php:99
+msgid ""
+"This is a test message "
+"from Telefication"
+msgstr ""
+
+#: admin/class-telefication-admin.php:117
+msgid "Settings"
+msgstr ""
+
+#: admin/class-telefication-admin.php:131
+msgid ""
+"Telefication Settings"
+msgstr ""
+
+#: admin/class-telefication-admin.php:132
+msgid "Telefication"
+msgstr ""
+
+#: admin/class-telefication-admin.php:166
+#: admin/partials/telefication-admin-display.php:31
+msgid "General Setting"
+msgstr ""
+
+#: admin/class-telefication-admin.php:173
+msgid "Telefication Bot ID"
+msgstr ""
+
+#: admin/class-telefication-admin.php:181
+msgid "Email(s):"
+msgstr ""
+
+#: admin/class-telefication-admin.php:189
+msgid ""
+"Display Recipient Email"
+msgstr ""
+
+#: admin/class-telefication-admin.php:197
+msgid "Send Email Body"
+msgstr ""
+
+#: admin/class-telefication-admin.php:205
+msgid ""
+"Only Woocommerce Orders"
+msgstr ""
+
+#: admin/class-telefication-admin.php:216
+msgid "My Own Bot Setting"
+msgstr ""
+
+#: admin/class-telefication-admin.php:223
+msgid "Your Bot Token"
+msgstr ""
+
+#: admin/class-telefication-admin.php:274
+#, php-format
+msgid ""
+"Join to %s at Telegram "
+"to receive notifications."
+msgstr ""
+
+#: admin/class-telefication-admin.php:288
+msgid "Send test message"
+msgstr ""
+
+#: admin/class-telefication-admin.php:289
+msgid ""
+"Please enter your "
+"Telefication bot id."
+msgstr ""
+
+#: admin/class-telefication-admin.php:308
+msgid ""
+"⚠ Woocommerce is not "
+"active!"
+msgstr ""
+
+#: admin/class-telefication-admin.php:313
+msgid ""
+"If enabled, you will "
+"receive only woocommerce "
+"new orders notification. "
+"(on woocommerce thank "
+"you page)"
+msgstr ""
+
+#: admin/class-telefication-admin.php:334
+msgid ""
+"If enabled, you will "
+"receive email body too."
+msgstr ""
+
+#: admin/class-telefication-admin.php:353
+msgid ""
+"If enabled, the "
+"recipient email will be "
+"added to notifications."
+msgstr ""
+
+#: admin/class-telefication-admin.php:368
+msgid ""
+"Notify me only of the "
+"emails that are sent to "
+"this list. (Comma "
+"separated.) <br> Leave "
+"it empty if you want to "
+"get all notifications."
+msgstr ""
+
+#: admin/class-telefication-admin.php:384
+msgid ""
+"If you insert your own "
+"bot token, Telefication "
+"will send notifications "
+"to your bot directly!"
+msgstr ""
+
+#: admin/class-telefication-admin.php:396
+msgid ""
+"Please enter your bot "
+"token ."
+msgstr ""
+
+#: admin/partials/telefication-admin-display.php:28
+msgid ""
+"Telefication Setting"
+msgstr ""
+
+#: admin/partials/telefication-admin-display.php:32
+msgid "My Own Bot"
+msgstr ""
+
+#: admin/partials/telefication-admin-display.php:47
+msgid ""
+"How To Use My Own Bot"
+msgstr ""
+
+#: admin/partials/telefication-admin-display.php:51
+#, php-format
+msgid ""
+"1. Go to %s and start "
+"it, send <code>/newbot</"
+"code> and follow "
+"instructions to create "
+"your own bot. at the "
+"end, you will receive "
+"your bot token. See %s "
+"for more information."
+msgstr ""
+
+#: admin/partials/telefication-admin-display.php:53
+msgid "here"
+msgstr ""
+
+#: admin/partials/telefication-admin-display.php:58
+msgid ""
+"2. Insert your bot token "
+"at input above and save "
+"changes. "
+msgstr ""
+
+#: admin/partials/telefication-admin-display.php:60
+msgid ""
+"3. Go to the general "
+"options tab and test "
+"your bot by sending a "
+"test message "
+msgstr ""
+
+#: admin/partials/telefication-admin-display.php:64
+msgid ""
+"* Don't forget to start "
+"your own bot"
+msgstr ""
+
+#: admin/partials/telefication-admin-display.php:66
+#, php-format
+msgid ""
+"** Currently, you should "
+"get your ID from %s and "
+"save it in general "
+"options tab like before, "
+"but notifications send "
+"to your but directly."
+msgstr ""
+
+#: admin/partials/telefication-admin-display.php:79
+#, php-format
+msgid ""
+"If you like Telefication "
+"please leave us a %s "
+"rating. A huge thank you "
+"from us in advance!"
+msgstr ""
+
+#: admin/partials/telefication-admin-display.php:85
+msgid ""
+"We will be happy if you "
+"let us know your "
+"suggestions."
+msgstr ""
+
+#: includes/class-telefication-service.php:146
+msgid ""
+"Test message sent "
+"successfully (To Your "
+"Bot)"
+msgstr ""
+
+#: includes/class-telefication-service.php:159
+msgid ""
+"Test message sent "
+"successfully (To "
+"Telefication Bot)"
+msgstr ""
+
+#: includes/class-telefication.php:231
+msgid "Name: "
+msgstr ""
+
+#: includes/class-telefication.php:232
+msgid "City: "
+msgstr ""
+
+#: includes/class-telefication.php:233
+msgid "Phone: "
+msgstr ""
+
+#: includes/class-telefication.php:234
+msgid "Total: "
+msgstr ""
+
+#: includes/class-telefication.php:252
+msgid "New order: "
+msgstr ""
+
+#: includes/class-telefication.php:255
+msgid "Billing data: "
+msgstr ""
+
+#: includes/class-telefication.php:297
+msgid "This Is Test"
+msgstr ""
+
+#: includes/class-telefication.php:300
+msgid "Please enter ID"
+msgstr ""
